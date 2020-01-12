@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tutorialkart.androidlistview.MainActivity"
+    android:fillViewport="true">
+
+    <FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tutorialkart.androidlistview.MainActivity">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_constraintBottom_toBottomOf="parent"
+        android:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp">
+
+
+            <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_constraintHorizontal_bias="0.047"
+            android:layout_constraintVertical_bias="0.074"
+            android:layout_constraintBottom_toBottomOf="parent"
+            android:layout_constraintLeft_toLeftOf="parent"
+            android:layout_constraintRight_toRightOf="parent"
+            android:layout_constraintTop_toTopOf="parent"
+            android:text="Cities!"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+
+            <ListView
+            android:id="@+id/listview_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>
